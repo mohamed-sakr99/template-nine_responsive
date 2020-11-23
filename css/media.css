@@ -1,0 +1,25 @@
+/* start phones and tablelts */
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav>li>a {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .subscribe .form-control {
+        margin: 20px auto;
+    }
+
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: none;
+    }
+}
+
+/* start small screen */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* start medium screen */
+@media (min-width: 992px) and(max-width: 1199px) {}
+
+/*start large screen*/
+@media (min-width: 1200px) {}
